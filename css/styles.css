@@ -1,0 +1,266 @@
+:root {
+    --background-color-accent: #2F303A;
+    --background-color-grey: #e5e5e5;
+    --background-color-white: #ffffff;
+    --background-color-light-greу: #F5F4FA;
+    --background-color-blue: #2196F3;
+    --color-accent: #212121;
+    --color-accent-two: #ffffff;
+    --color-accent-three: #757575;
+    --color-accent-four: #2196F3;
+}
+
+body {
+    font-family:'Roboto', sans-serif;
+    font-size: 14px; letter-spacing: 0.03em;
+    color: var(--color-accent);
+}
+
+a, ul, li {
+    text-decoration: none;
+    list-style-type: none;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: var(--background-color-white);
+}
+
+.title {
+    color: var(--color-accent-two)
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.project {
+    background-color: var(--background-color-white); 
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+.section-hero {
+    background-color: var(--background-color-accent);
+    color: var(--color-accent-two);
+    text-align: center;
+    /* height: 600px; */
+    padding-top: 200px;
+    padding-bottom: 280px;
+}
+
+.work {
+    background-color: var(--background-color-white);
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+
+.article-skills {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.skills-text {
+    color: var(--color-accent-three);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 94px;
+}
+
+.article-work, .article-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.article-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.article-paragraph {
+    color: var(--color-accent-three);
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.article-app {
+    background-color: var(--background-color-white);
+    border: 1px solid #EEEEEE;
+    margin-bottom: 30px;
+}
+
+.arcticle-img {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.article-post {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.article-decoding {
+    color: var(--color-accent-three);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.team-title {
+    background-color: var(--background-color-light-greу);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.title-img {
+    background-color: var(--background-color-white);
+    margin-top: 50px;
+}
+
+.web, .web-footer  {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: Raleway;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color-accent);
+}
+.web-footer {
+    color: var(--color-accent-two);
+}
+
+.link {
+    color: var(--color-accent);
+    font-weight: 500;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+}
+
+.link-tel, .link-mail {
+    font-weight: 500;
+    color: var(--color-accent-three);
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+}
+.footer-link-tel, .footer-link-mail {
+    color: var(--color-accent-three);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin-bottom: 9px;
+}
+
+.footer-address:hover {
+    color: var(--color-accent-four);
+}
+
+.link-tel:hover {
+    color: var(--color-accent-four);
+}
+
+.link-mail:hover {
+    color: var(--color-accent-four);
+}
+
+.footer {
+    background-color: var(--background-color-accent);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-address {
+    color: var(--background-color-white);
+    margin-top: 20px;
+    margin-bottom: 9px;
+}
+
+.footer-link:hover {
+    color: var(--color-accent-four);
+}
+
+.footer-link-mail:hover {
+    color: var(--color-accent-four);
+}
+
+.footer-link-tel:hover {
+    color: var(--color-accent-four);
+}
+
+.button-order-service {
+    background-color: var(--background-color-blue);
+    color: var(--color-accent-two);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    cursor:pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
+
+}
+.button-project {
+    background-color: var(--background-color-light-greу);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    
+    display: block;
+    min-width: 73px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: transparent;
+    margin-bottom: 50px
+}
+
+.button :hover {
+    background-color: var(--background-color-blue);
+    color: var(--color-accent-two);
+}
+
+.button :focus {
+    background-color: var(--background-color-blue);
+    color: var(--color-accent-two);
+}
+
+
